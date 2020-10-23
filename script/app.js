@@ -13,7 +13,6 @@ function _parseMillisecondsIntoReadableTime(timestamp) {
 	return hours.substr(-2) + ':' + minutes.substr(-2); //  + ':' + s
 }
 
-//main function
 let showResult = function(json) {
 	// Sunrise/sunsetdates
 	let sunriseDate = new Date(json.city.sunrise * 1000);
